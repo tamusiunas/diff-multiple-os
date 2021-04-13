@@ -26,11 +26,11 @@ For more information about patch parametes:
 ### diff.bash
 ```bash
 Usage: 
-           $ ./diff.bash "<diff parameters>"
+           $ bash ./diff.bash "<diff parameters>"
 Important: "<diff parameters>" MUST have double quotes.
            Without double quotes Windows can't interprept Windows-style PATH
 Usage example: 
-           $ ./diff.bash "'c:\Users\User 1\file.cpp.diff' c:\devel\prog1\file.cpp"
+           $ bash ./diff.bash "'c:\Users\User 1\file.cpp.diff' c:\devel\prog1\file.cpp"
 For more information about diff parametes: 
            $ man diff # or <https://man7.org/linux/man-pages/man1/diff.1.html>
 ```
