@@ -52,5 +52,5 @@ extra_scripts = pre:apply_patch.py
 ```python
 Import ("env")
 ...
-env.Execute("bash -c \"patches/patch.bash '%s %s'\"" % (originalFile, patchFile)) # patch.bash must be into patch directory
+env.Execute("bash -c \"patches/patch.bash '%s %s'\"" % (originalFile, patchFile)) # patch.bash must be into patches directory
 ```
