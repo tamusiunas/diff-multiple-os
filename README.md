@@ -4,7 +4,7 @@ Bash scripts to allow the use of GNU patch and diff commands in multiple environ
 
 Windows Requirements:
 
-- [Git-SCM](https://git-scm.org) - It provides a bash.exe
+- [Git-SCM](https://git-scm.org) - It provides and add a bash.exe to PATH
 
 or 
 
