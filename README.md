@@ -16,7 +16,7 @@ or
 Usage: 
            $ bash ./patch.bash "<patch parameters>"
 Important: "<patch parameters>" MUST have double quotes.
-           Without double quotes Windows can't interprept Windows-style PATH
+           Without double quotes Windows can\'t interprept Windows-style PATH
 Usage example: 
            $ bash ./patch.bash "c:\devel\prog1\file.cpp 'c:\Users\User 1\file.cpp.diff'"
 For more information about patch parametes: 
@@ -28,7 +28,7 @@ For more information about patch parametes:
 Usage: 
            $ bash ./diff.bash "<diff parameters>"
 Important: "<diff parameters>" MUST have double quotes.
-           Without double quotes Windows can't interprept Windows-style PATH
+           Without double quotes Windows can\'t interprept Windows-style PATH
 Usage example: 
            $ bash ./diff.bash "'c:\Users\User 1\file.cpp.diff' c:\devel\prog1\file.cpp"
 For more information about diff parametes: 
