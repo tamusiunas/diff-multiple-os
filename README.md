@@ -10,7 +10,7 @@ or
 
 - [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) - It provides a Linux on Windows
 
--
+
 ### patch.bash
 ```bash
 Usage: 
@@ -22,7 +22,7 @@ Usage example:
 For more information about patch parametes: 
            $ man patch # or <https://man7.org/linux/man-pages/man1/patch.1.html>
 ```
--
+
 ### diff.bash
 ```bash
 Usage: 
@@ -34,7 +34,7 @@ Usage example:
 For more information about diff parametes: 
            $ man diff # or <https://man7.org/linux/man-pages/man1/diff.1.html>
 ```
--
+
 ## Usage example on [PlatformIO](https://platformio.org) Project
 ### platformio.ini
 ```
@@ -47,7 +47,7 @@ framework = arduino
 extra_scripts = pre:apply_patch.py
 
 ```
--
+
 ### apply_patch.py
 ```python
 Import ("env")
